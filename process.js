@@ -8,7 +8,9 @@ request('http://www.capitalbikeshare.com/data/stations/bikeStations.xml', functi
   $('station').each(function(i) {
     gj.features.push({
       type: 'Feature',
-      properties: {},
+      properties: {
+        name: $('name').text()
+      },
       geometry: {
         type: 'Point',
         coordinates: [
