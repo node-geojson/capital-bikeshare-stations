@@ -6,3 +6,6 @@ Download `stations.geojson` for the processed data. To reprocess, you'll need no
 $ npm install
 $ node process.js
 ```
+
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/capital-bikeshare-stations.svg)](https://greenkeeper.io/)
